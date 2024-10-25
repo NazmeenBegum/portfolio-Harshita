@@ -1,0 +1,456 @@
+body{
+    background-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    background-color: #F9FAF6;
+    padding-top: 50px;
+}
+
+span{
+    font-family: sans-serif;
+
+}
+#header{
+    width: 92%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 5rem;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding-left: 80px;
+    padding-right: 40px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+    
+    
+}
+
+
+#name::first-letter{
+     font-size: 30px;
+}
+
+.subheader{
+    margin-top: 40px;
+    margin-left: 165px;
+  
+}
+#harshitha_pic{
+    background-image:  url(harshitha_bg.webp) ;
+    background-size:cover;
+    background-repeat:repeat;
+    position: absolute;
+    left: 38%;
+    top: 15.7rem;   
+    width: 28rem;
+    height: 28rem;
+}
+#exp::first-letter{
+     font-size: 50px;
+     padding-bottom: 50px;
+     
+}
+
+.certification{
+    position: absolute;
+    top: 30rem;
+    left: 70%;
+   margin-left: 100px;
+
+
+}
+#para{
+    color:black;
+}
+#headcolor{
+    color: blue;
+    font-size: 30px;
+}
+#head{
+    
+    font-size: 5rem;
+}
+
+
+#card1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+   
+   
+    
+    
+}
+#card1 h1{
+    font-size: large;
+    
+}
+section{
+    display: flex;
+}
+#main{
+margin: 1rem;
+margin-left: 3rem;
+padding: 1rem;
+}
+#card1 button{
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid black;
+    border-radius: 50%;
+  background-color: white;
+
+}
+#card1img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+#card1div1{
+    padding: 0.5rem;
+    margin-left: 0.25rem;
+}
+#card2{
+   
+   margin-left: 5rem;
+    padding: 1.5rem;
+    width: 40rem;
+    
+    
+}
+#card2div{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#num{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+#card2div{
+    font-size: 1.05rem;
+}
+#p1{
+    font-size: xx-large;
+    font-weight: 900;
+    
+    
+    }
+    #card1:hover{
+        border: 1px solid black;
+        background-color: rgba(128, 128, 128, 0.404);
+        box-shadow: 10px 5px 5px black;
+        font-family:cursive;
+}
+#color{
+    color: black;
+}
+#service1{
+    border: 5px solid black;
+    width: 250px;
+    height: 270px;
+    background-color: rgb(247, 234, 219);
+    border-radius: 30px;
+}
+#service2{
+    border: 5px solid black;
+    width: 250px;
+    height: 270px;
+    background-color: rgb(247, 234, 219);
+    border-radius: 30px;
+}
+
+#service3{
+    border: 5px solid black;
+    width: 250px;
+    height: 270px;
+    background-color: rgb(247, 234, 219);
+    border-radius: 30px;
+}
+
+#service4{
+    border: 5px solid black;
+    width: 250px;
+    height: 270px;
+    background-color: rgb(247, 234, 219);
+    border-radius: 30px;
+}
+#service{
+    
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+
+
+body{
+    
+    padding: 50px;
+   
+}
+
+h1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding-bottom:20px ;
+    
+}
+h2{
+    color: white;
+}
+#about{
+    background-color: #ccc;
+    height: 90vh;
+    padding-top: 30px;
+}
+
+#years{
+ background-color: orange;
+ width: 200px;
+ height: 50px;
+ border-radius: 20px;
+ float: left;
+ margin-top: 30px;
+ margin-left: 60px;
+
+}
+h2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+p{
+  
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 20px;
+ padding-bottom: 20px;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+  
+}
+
+#div1{
+    width: 330px;
+    height: 300px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 50px 50px 50px solid rgb(83, 81, 81);
+}
+#div2{
+    width: 330px;
+    height: 300px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 50px 50px 50px solid rgb(83, 81, 81);
+}
+#div3{
+    width: 330px;
+    height: 300px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 50px 50px 50px solid rgb(83, 81, 81);
+}
+#Experience{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and(max-width:1200px) {
+
+    #Experience{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#card2{
+   
+
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+
+     
+ }
+ #head{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+    display: grid;
+ }
+}
+body{
+    background-color: white;
+   }
+   
+   #text1{
+       width: 43%;
+       padding: 15px;
+       font-size: 1rem;
+       font-weight: bold;
+       border: 1.8px solid blue;
+       border-radius: 10px;
+       background: transparent;
+   }
+   ::placeholder{
+       color: gray;
+   }
+   #text1:hover{
+       background: linear-gradient(to right,rgb(189, 208, 215) 50%,white);
+   background-position: right to bottom;
+   background-size: 200% 100%;
+   
+   transition: ease-out 5s;
+   color: black;
+       
+   }
+   #text2{
+       margin-left: 26px;
+       width: 43%;
+       padding: 15px;
+       font-size: 1rem;
+       font-weight: bold;
+       border: 1.8px solid blue;
+       border-radius: 10px;
+       background: transparent;
+    }
+    #text2:hover{
+        background: linear-gradient(to right,rgb(189, 208, 215) 50%,white);
+    background-position: right to bottom;
+    background-size: 200% 100%;
+    
+    transition: ease-out 5s;
+    color: black;
+        
+    }
+    #div5{
+        margin-top: 30px;
+    }
+    #text3{
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        width: 98%;
+        height: 250px;
+        font-size: 1rem;
+        font-weight: bold;
+        background: transparent;
+    }
+    #message{
+        margin-top: 30px;
+    }
+    #message1{
+        font-size: 1rem;
+        font-weight: bold;
+        border: 1.8px solid blue;
+        border-radius: 10px;
+        background: transparent;
+    }
+    #section-1{
+       padding-left: 20px;
+        padding: 50px;
+        
+    }
+    #details{
+        margin-top: 3rem;
+    }
+    #button-2{
+    margin-top: 2rem;
+    padding: 10px;
+    }
+    #message1:hover{
+        background: linear-gradient(to right,rgb(189, 208, 215) 50%,white);
+    background-position: right  bottom;
+    background-size: 200% 100%;
+    
+    transition: ease-out 5s;
+    color: black;
+        
+    }
+    #button-2{
+        padding: 4px 30px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px;
+    }
+    
+    .contact-footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .contact-footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .contact-footer li {
+        margin-bottom: 10px;
+      }
+      
+      .contact-footer i {
+        margin-right: 10px;
+      }
+      #contact{
+        height: 90vh;
+        background-color: #e2e1e1;
+        
+      }
+      
+      .social-links {
+        margin-top: 20px;
+      }
+      
+      .social-links li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      .social-links a {
+        color: #fff;
+        font-size: 18px;
+    }
+  
+    .social-links a:hover {
+      color: #ccc;
+    }
+    
+    address {
+      font-style: normal;
+    }
+    a{
+      color: white;
+    }
+    a:focus{
+      color:#fff;
+    }        
